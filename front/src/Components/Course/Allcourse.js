@@ -191,7 +191,7 @@ const CourseList = () => {
                       <p className="text-gray-600">{`Instructor: ${course.instructor}`}</p>
                     </span>
                   </div>
-                  <button
+                  {/* <button
                     className="cursor-pointer items-center flex gap-2"
                     onClick={() => handleEnrollClick(course.id)}
                   >
@@ -201,7 +201,7 @@ const CourseList = () => {
                     ) : (
                       <BsBookmark />
                     )}
-                  </button>
+                  </button> */}
                 </div>
               ))
             : searchresult

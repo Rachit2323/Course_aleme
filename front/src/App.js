@@ -10,24 +10,30 @@ import ProtectedRoute from "./PrivateRoute.js";
 import { useSelector } from "react-redux";
 
 const App = () => {
-
-  const {
-    isAuth
-   } = useSelector((state) => state.user);
+  const { isAuth } = useSelector((state) => state.user);
+  console.log(isAuth);
+  const token = localStorage.getItem("token");
   return (
     <Router>
       <Routes>
-       
-        <Route element={<ProtectedRoute isAuth={isAuth}/>}>
-        <Route path="/courses" element={<AllCourse />} />
+        {isAuth && token ? (
+          <Route element={<ProtectedRoute isAuth={isAuth} />}>
+            <Route path="/courses" element={<AllCourse />} />
+            <Route path="/course/:id" element={<IndividualCourse />} />
+            <Route path="/dashboard" element={<Dash />} />
+          </Route>
+        ):
+        (
+        <><Route path="/courses" element={<AllCourse />} />
         <Route path="/course/:id" element={<IndividualCourse />} />
         <Route path="/dashboard" element={<Dash />} />
-        </Route>
-        <Route path="*" element={<AllCourse />} />
+        </> )}
+
+
         <Route path="/" element={<Auth />} />
         <Route path="/signin" element={<Signin />} />
       </Routes>
-      </Router>
+    </Router>
   );
 };
 
