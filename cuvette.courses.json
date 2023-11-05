@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "65451e9f42d3f0f653ea5702"
+  },
+  "id": 1,
+  "name": "Introduction to React Native",
+  "instructor": "John Doe",
+  "description": "Learn the basics of React Native development and build your first mobile app.",
+  "enrollmentStatus": "Open",
+  "thumbnail": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+  "duration": "8 weeks",
+  "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+  "location": "Online",
+  "prerequisites": [
+    "Some Prerequisite 1",
+    "Some Prerequisite 2"
+  ],
+  "syllabus": [
+    {
+      "week": 1,
+      "topic": "Getting Started with React Native",
+      "content": "Introduction to React Native and setting up your development environment."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65451ec442d3f0f653ea5704"
+  },
+  "id": 2,
+  "name": "Introduction to React Js ",
+  "instructor": "John Doe",
+  "description": "Learn the basics of React Native development and build your first mobile app.",
+  "enrollmentStatus": "Close",
+  "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+  "duration": "7 weeks",
+  "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+  "location": "Online",
+  "prerequisites": [
+    "Some Prerequisite 1",
+    "Some Prerequisite 2"
+  ],
+  "syllabus": [
+    {
+      "week": 1,
+      "topic": "Getting Started with React Native",
+      "content": "Introduction to React Native and setting up your development environment."
+    },
+    {
+      "week": 2,
+      "topic": "Getting Started with React Js",
+      "content": "Introduction to React Native and setting up your development environment."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65468a15104ee1c0900027a1"
+  },
+  "id": 3,
+  "name": "Introduction to React Native 2",
+  "instructor": "John sharma",
+  "description": "Learn the basics of Reactnative 2 development and build your first mobile app.",
+  "enrollmentStatus": "Open",
+  "thumbnail": "https://images.unsplash.com/photo-1566837945700-30057527ade0",
+  "duration": "8 weeks",
+  "schedule": "Tuesdays and Sunday,4\n:00 PM - 8:00 PM",
+  "location": "Online",
+  "prerequisites": [
+    "Some Prerequisite 1",
+    "Some Prerequisite 2"
+  ],
+  "syllabus": [
+    {
+      "week": 1,
+      "topic": "Getting Started with React Native",
+      "content": "Introduction to React Native and setting up your development environment."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65468a21104ee1c0900027a2"
+  },
+  "id": 4,
+  "name": "Introduction to React Native",
+  "instructor": "John Doe",
+  "description": "Learn the basics of React Native development and build your first mobile app.",
+  "enrollmentStatus": "Open",
+  "thumbnail": "https://images.unsplash.com/photo-1566837945700-30057527ade0",
+  "duration": "8 weeks",
+  "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+  "location": "Online",
+  "prerequisites": [
+    "Some Prerequisite 1",
+    "Some Prerequisite 2"
+  ],
+  "syllabus": [
+    {
+      "week": 1,
+      "topic": "Getting Started with React Native",
+      "content": "Introduction to React Native and setting up your development environment."
+    }
+  ]
+}]

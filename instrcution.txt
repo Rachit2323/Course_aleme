@@ -1,0 +1,17 @@
+Backend 
+
+Include PORT ,JWT_SECRET and MONGO_URI in .env file I have and also I am giving below down to easy
+You just need to add this in .env file (create it) in backend and also I used mongodb : compass for mongodb 
+
+MONGO_URI=mongodb://localhost:27017/cuvette
+JWT_SECRET=bbdjbjbjbcjbcdcdcd
+PORT=4000
+
+For the db I am giving you the course.json file import it in your mongodb it have dummy data in it and one more after the signup yiu have to sigin again ok. 
+the dummy data file name is cuvette.course.json add it in mongodb database (to have courselist) 
+
+backend command is npm start to run the backendcode
+
+Frontend 
+
+it is basically run with npm start command only
