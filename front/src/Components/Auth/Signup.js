@@ -40,13 +40,11 @@ const Signup = () => {
 
   useEffect(() => {
 
-    if (successsignup && signupstate === 201) {
+    if (successsignup ) {
 
-      toast.success("Check Your mail to verify the account");
-    } else if (!successsignup && signupstate !== 201 && msgsignup) {
-      toast.error(msgsignup);
-    }
-  }, [successsignup, signupstate, msgsignup, signupcount]);
+      toast.success("Signup done , Please signin");
+    } 
+  }, [successsignup]);
 
 
 
